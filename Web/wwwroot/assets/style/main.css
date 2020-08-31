@@ -1,0 +1,40 @@
+﻿body {
+    margin: auto;
+    min-width: 760px;
+    width: 70%;
+}
+
+.content {
+    
+}
+
+.validation-message {
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+    ul li {
+        margin: 5px;
+        padding: 5px;
+    }
+
+.book-card img {
+    height: 128px;
+    width: 128px;
+}
+
+.book-card .italic {
+    font-style: italic;
+}
+
+.book-card .bold {
+    font-weight: bold;
+}
+
+.book-card .small {
+    font-size: 0.8em;
+}

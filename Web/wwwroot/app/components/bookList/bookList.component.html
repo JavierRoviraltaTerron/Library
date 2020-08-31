@@ -1,0 +1,25 @@
+﻿<ul ng-repeat="item in ctrl.list | filter: {title: ctrl.filtro}">
+    <li>
+        <div class="row jumbotron book-card">
+            <div class="col-sm-8">
+                <ul>
+                    <li>
+                        <h3>{{item.title}}</h3>
+                    </li>
+                    <li>
+                        <span class="italic">{{item.author}}</span>
+                    </li>
+                    <li>
+                        <span class="bold">{{item.publisher}}</span>
+                    </li>
+                    <li>
+                        <span class="small">{{item.description}}</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <img src="../../assets/img/{{item.image}}" />
+            </div>
+        </div>
+    </li>
+</ul>
