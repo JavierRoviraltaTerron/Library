@@ -29,8 +29,16 @@
                         "title": "El Señor de los Anillos",
                         "author": "JRRTolkien",
                         "publisher": "Minotauro",
-                        "description": "La Tierra Media está amenazada…",
+                        "description": "La Tierra Media…",
                         "image": "img2.jpg"
+                    },
+                    {
+                        "id": "3",
+                        "title": "Un Mundo Feliz",
+                        "author": "Aldous Huxley",
+                        "publisher": "Debolsillo",
+                        "description": "La historia se desarrolla en una ciudad utópica...",
+                        "image": "img3.jpg"
                     }
                 ]
 

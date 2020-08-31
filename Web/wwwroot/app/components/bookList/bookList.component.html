@@ -1,4 +1,4 @@
-﻿<ul ng-repeat="item in ctrl.list | filter: {title: ctrl.filtro}">
+﻿<ul ng-repeat="item in ctrl.list | filter: {title: ctrl.filtro} | orderBy:'title' | orderBy:'publisher'">
     <li>
         <div class="row jumbotron book-card">
             <div class="col-sm-8">
